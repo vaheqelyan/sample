@@ -1,4 +1,4 @@
-asdfadsffunction function_name(argument) {
+sdfasdfadsffunction function_name(argument) {
 	function function_name(argument) {
 		function function_name(argument) {
 		// body...
