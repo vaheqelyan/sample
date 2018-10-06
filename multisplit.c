@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
  
-void parse_sep(const char *str, const char *const *pat, int len)
+void parse_sep__(const char *str, const char *const *pat, int len)
 {
 	int i, slen;
 	while (*str != '\0') {
