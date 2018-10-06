@@ -1,5 +1,6 @@
 asdasdasdfasdfdfasdf
 bar
+<<<<<<< HEAD
 
 noob
 asdasd
@@ -7,3 +8,8 @@ a
 sdfasdf
 asdf
 asdf
+=======
+a
+sdf
+adsf
+>>>>>>> GitHubT2-master
