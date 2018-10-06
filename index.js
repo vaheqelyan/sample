@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 sdfasdfadsffunction function_name(argument) {
 	function function_name(argument) {
 		function function_name(argument) {
@@ -18,3 +19,6 @@ function hello(){
 	asdasd
 	*/
 }
+=======
+k
+>>>>>>> f0ca12d914f5962021b68f4a688cdca669ae27aa
