@@ -4,7 +4,7 @@
 #define IS_CTRL  (1 << 0)
 #define IS_EXT	 (1 << 1)
 #define IS_ALPHA (1 << 2)
-#define IS_DIGIT (1 << 3) /* not used, just give you an idea */
+#define IS_DIGIT (1 << 3) 
  
 unsigned int char_tbl[256] = {0};
  

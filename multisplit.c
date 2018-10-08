@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
  
+ //a asdf
 void parse_sep__(const char *str, const char *const *pat, int len)
 {
 	int i, slen;
