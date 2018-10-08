@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
  
- //a asdf
+ //a asdf adsfasdf
 void parse_sep__(const char *str, const char *const *pat, int len)
 {
 	int i, slen;
@@ -9,7 +9,7 @@ void parse_sep__(const char *str, const char *const *pat, int len)
 		for (i = 0; i < len || !putchar(*(str++)); i++) {
 			slen = strlen(pat[i]);
 			if (strncmp(str, pat[i], slen)) continue;
-			printf("{%.*s}", slen, str);
+			printf("{%.*s}", slen, str); // some comment
 			str += slen;
 			break;
 		}
