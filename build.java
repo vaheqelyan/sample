@@ -544,7 +544,7 @@ public class FlatBufferBuilder {
     /**
      * Create a byte array in the buffer.
      *
-     * @param arr A source array with data
+     * @param arr A source array with data.
      * @return The offset in the buffer where the encoded array starts.
      */
     public int createByteVector(byte[] arr) {
