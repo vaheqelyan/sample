@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
- 
+#include <io.h> 
 #define IS_CTRL  (1 << 0)
 #define IS_EXT	 (1 << 1)
 #define IS_ALPHA (1 << 2)
