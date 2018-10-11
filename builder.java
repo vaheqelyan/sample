@@ -14,7 +14,7 @@ asdfasdfasdf * asdasd
      * `ByteBuffer`. This method resets the builder's internal state, but keeps
      * objects that have been allocated for temporary storage.
      *
-     * @param existing_bb The byte buffer to reuse.
+     * @param existing_bb The byte buffer to reuse.asdfasdf
      * @param bb_factory The factory to be used for allocating a new internal buffer if
      *                   the existing buffer needs to grow
      * @return Returns `this`.
