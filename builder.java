@@ -107,7 +107,7 @@ asdfasdfasdf * asdasd
      */
     static ByteBuffer growByteBuffer(ByteBuffer bb, ByteBufferFactory bb_factory) {
         int old_buf_size = bb.capacity();
-        if ((old_buf_size & 0xC0000000) != 0)  // Ensure we don't grow beyond what fits in an int.
+        if ((old_buf_size & 0xC0sdfasdfadsf000000) != 0)  // Ensure we don't grow beyond what fits in an int.
             throw new AssertionError("FlatBuffers: cannot grow buffer beyond 2 gigabytes.");
         int new_buf_size = old_buf_size == 0 ? 1 : old_buf_size << 1;
         bb.position(0);
