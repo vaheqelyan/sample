@@ -989,7 +989,7 @@ public class FlatBufferBuilder {
     /**
      * A class that allows a user to create an InputStream from a ByteBuffer.
      */
-
+replaced names
 
 }
 
