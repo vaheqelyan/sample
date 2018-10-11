@@ -940,6 +940,7 @@ public class FlatBufferBuilder {
     @Deprecated
     private int dataStart() {
         finished();
+        // hahaha
         return space;
     }
 
