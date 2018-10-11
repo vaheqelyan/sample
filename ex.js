@@ -1,6 +1,8 @@
-const {spawn} = require('child_process');
-
-		const ls = spawn("git", ["push", "origin", "master"], { 
-cwd: './' });
-		ls.stderr.on("data", 
-(data)=>{console.log(data.toString('utf8'))});
+const {execFile} = require('child_process')
+execFile("git", ["commit",'-m',"hello world",'./builder.java'], { cwd: './' }, (err,out)=>{
+	if(err){
+		console.log(err);
+		return;
+	}
+	console.log(out);
+});
