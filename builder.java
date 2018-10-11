@@ -845,6 +845,8 @@ public class FlatBufferBuilder {
         finished = true;
     }
 
+    asdf
+
     /**
      * Finalize a buffer, pointing to the given `root_table`.
      *
