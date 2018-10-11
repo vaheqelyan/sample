@@ -989,22 +989,7 @@ public class FlatBufferBuilder {
     /**
      * A class that allows a user to create an InputStream from a ByteBuffer.
      */
-    static class ByteBufferBackedInputStream extends InputStream {
 
-        ByteBuffer buf;
-
-        public ByteBufferBackedInputStream(ByteBuffer buf) {
-            this.buf = buf;
-        }
-
-        public int read() throws IOException {
-            try {
-                return buf.get() & 0xFF;
-            } catch(BufferUnderflowException e) {
-                return -1;
-            }
-        }
-    }
 
 }
 
