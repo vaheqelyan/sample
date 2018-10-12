@@ -11,101 +11,15 @@ asdfasdfasdf * asdasd
 
     /**
      * Alternative initializer that allows reusing this object on an existing
-     * `ByteBuffer`. This method resets the builder's internal state, but keeps
-     * objects that have beenasdfadf allocated for temporary storage.
-     *
-     * @param existing_bb The byte buffer to reuse.asdfasdf
-     * @param bb_factory The factory to be used for allocating a new internal buffer if
-     *                   the existing buffer needs to grow
-     * @return Returns `this`.
-     */
-    public FlatBufferBuilder init(ByteBuffer existing_bb, ByteBufferFactory bb_factory){
-        this.bb_factory = bb_factory;
-        bb = existing_bb;
-        bb.clear();
-        bb.order(ByteOrder.LITTLE_ENDIAN);
-        minalign = 1;
-        space = bb.capacity();
-        vtable_in_use = 0;
-        nested = false;
-        finished = false;
-        object_start = 0;
-        num_vtables = 0;
-        vector_num_elems = 0;
-        return this;
-    }
-
-    /**
-     * An interface that provides a user of the FlatBufferBuilder class the ability to specify
-     * the method in which the internal buffer gets allocated. This allows for alternatives
-     * to the default behavior, which is to allocate memory for a new byte-array
-     * backed `ByteBuffer` array inside the JVM.
-     *
-     * The FlatBufferBuilder class contains the HeapByteBufferFactory class to
-     * preserve the default behavior in the event that the user does not provide
-     * their own implementation of this interface.
-     */
-    public interface ByteBufferFactory {
-        /**
-         * Create a `ByteBuffer` with a given capacity.
-         *
-         * @param capacity The size of the `ByteBuffer` to allocate.
-         * @return Returns the new `ByteBuffer` that was allocated.
-         */
-        ByteBuffer newByteBuffer(int capacity);
-
-        /**
-         * Release a ByteBuffer. Current {@link FlatBufferBuilder}
-         * released any reference to it, so it is safe to dispose the buffer
-         * or return it to a pool.
-         * It is not guaranteed that the buffer has been created
-         * with {@link #newByteBuffer(int) }.
-         *
-         * @param bb the buffer to release
-         */
-        default void releaseByteBuffer(ByteBuffer bb) {
-        }
-    }
-
-    /**
-     * An implementation of the ByteBufferFactory interface that is used when
-     * one is not provided by the user.
-     *
-     * Allocate memory for a new byte-array backed `ByteBuffer` array inside the JVM.
-     */
-    public static final class HeapByteBufferFactory implements ByteBufferFactory {
-        @Override
-        public ByteBuffer newByteBuffer(int capacity) {
-            return ByteBuffer.allocate(capacity).order(ByteOrder.LITTLE_ENDIAN);
-        }
-    }
-
-    /**
-     * Reset the FlatBufferBuilder by purging all data that it holds.
-     */
-    public void clear(){
-        space = bb.capacity();
-        bb.clear();
-        minalign = 1;
-        while(vtable_in_use > 0) vtable[--vtable_in_use] = 0;
-        vtable_in_use = 0;
-        nested = false;
-        finished = false;
-        object_start = 0;
-        num_vtables = 0;
-        vector_num_elems = 0;
-    }
-
-    /**
-     * Doubles the size of the backing {@link ByteBuffer} and copies the old data towards the
+     * `ByteBuffer`. This method resets the builder's internal state, b
      * end of the new buffer (since we build the buffer backwards).
      *
      * @param bb The current buffer with the existing data.
-     * @param bb_factory The factory to be used for allocating the new internal buffer
+     * @param bb_factory The asdfasdffactory to be used for allocating the new internal buffer
      * @return A new byte buffer with the old data copied copied to it.  The data is
      * located at the end of the buffer.
      */
-    static ByteBuffer growByteBuffer(ByteBuffer bb, ByteBufferFactory bb_factory) {
+    static ByteBuffer growByteBuasdfasdfasdfffer(ByteBuffer bb, ByteBufferFactory bb_factory) {
         int old_buf_size = bb.capacity();
         if ((old_buf_size & 0xC0sdfasdfadsf000000) != 0)  // Ensure we don't grow beyond what fits in an int.
             throw new AssertionError("FlatBuffers: cannot grow buffer beyond 2 gigabytes.");
