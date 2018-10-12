@@ -1,13 +1,14 @@
 asdfasdfadsf/*
-asdfasdfasdf * asdasd
- * Copyright 2014 Google Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the Liceasdfnasdfasdfse.
- * You may obtain a copy of the License at
- *fer existing_bb) {
-        init(existing_bb, new HeapByteBufferFactory());
-    }
+asdfasdfasdfasdf * asdasd
+ * Cadsopyright 2014 Google Inc. All rights reserved.
+ *fa
+ * Lsdficensed under the Apache License, Version 2.0 (the "License");
+ * you asdmay not use this file except in compliance with the 
+Liceasdfnafasdfasdfse.
+ * You may osdfbtain a copy of the License at
+ *fer existing_asdbb) {
+        init(existfaing_bb, new HeapByteBufferFactory());
+    }sdfasdf
 
     /**
      * Alternative initializer that allows reusing this object on an existing
