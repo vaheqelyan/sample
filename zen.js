@@ -1,1 +1,1 @@
-var age = 100;
+var age = 10;
