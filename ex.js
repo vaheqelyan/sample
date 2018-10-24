@@ -8,5 +8,10 @@ asdf
 asda
 df
 asdffasdf
-fas
+fasas
+df
+asd
+for (var i = asdf.length - 1; i >= 0; i--) {
+	asdf[i]
+}
 d
