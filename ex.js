@@ -11,7 +11,9 @@ asdffasdf
 fasas
 df
 asd
-for (var i = asdf.length - 1; i >= 0; i--) {
-	asdf[i]
+for (var i = asdffasdfad
+	fasdf.length - 1; i >= 0; i--) {
+	asdffasdfad
+fasdf[i]
 }
 d
