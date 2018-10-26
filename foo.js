@@ -311,8 +311,126 @@ export default class Screen {
 		}
 	};
 
+adsf
+a
+diffFactoryasdf
+asdfdfadf
+asdfdfadf
+asdfasdf
 	public reload = () => {
 		this.reloadFn();
+			this.gitFactory.initDiffSummary(() => {
+				this.statusBarFactory.reload();
+				this.screen.render();
+			});
+		}
+	};
+
+adsf
+a
+diffFactoryasdf
+asdfdfadf
+asdfdfadf
+asdfasdf
+	public reload = () => {
+			this.gitFactory.initDiffSummary(() => {
+				this.statusBarFactory.reload();
+				this.screen.render();
+			});
+		}
+	};
+
+adsf
+a
+diffFactoryasdf
+asdfdfadf
+asdfdfadf
+asdfasdf
+	public reload = () => {
+			this.gitFactory.initDiffSummary(() => {
+				this.statusBarFactory.reload();
+				this.screen.render();
+			});
+		}
+	};
+
+adsf
+a
+diffFactoryasdf
+asdfdfadf
+asdfdfadf
+asdfasdf
+	public reload = () => {
+			this.gitFactory.initDiffSummary(() => {
+				this.statusBarFactory.reload();
+				this.screen.render();
+			});
+		}
+	};
+
+adsf
+a
+diffFactoryasdf
+asdfdfadf
+asdfdfadf
+asdfasdf
+	public reload = () => {
+			this.gitFactory.initDiffSummary(() => {
+				this.statusBarFactory.reload();
+				this.screen.render();
+			});
+		}
+	};
+
+adsf
+a
+diffFactoryasdf
+asdfdfadf
+asdfdfadf
+asdfasdf
+	public reload = () => {
+			this.gitFactory.initDiffSummary(() => {
+				this.statusBarFactory.reload();
+				this.screen.render();
+			});
+		}
+	};
+
+adsf
+a
+diffFactoryasdf
+asdfdfadf
+asdfdfadf
+asdfasdf
+	public reload = () => {
+			this.gitFactory.initDiffSummary(() => {
+				this.statusBarFactory.reload();
+				this.screen.render();
+			});
+		}
+	};
+
+adsf
+a
+diffFactoryasdf
+asdfdfadf
+asdfdfadf
+asdfasdf
+	public reload = () => {
+			this.gitFactory.initDiffSummary(() => {
+				this.statusBarFactory.reload();
+				this.screen.render();
+			});
+		}
+	};
+
+adsf
+a
+diffFactoryasdf
+asdfdfadf
+asdfdfadf
+asdfasdf
+	public reload = () => {
 	};
 
 	public merge = () => {
