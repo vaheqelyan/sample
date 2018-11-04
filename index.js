@@ -1,3 +1,4 @@
+// wow
 var blessed = require('blessed')
   , screen;
 const {exec} = require('child_process')
