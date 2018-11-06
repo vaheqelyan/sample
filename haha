@@ -1,3 +1,4 @@
+const x = 123;
 function hello() {
 	return 123;
 	// hello
